@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+body {
+	margin:0px;
+	padding:0px;
+	background-attachment: scroll;
+	background-image: url(background.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.data {
+	text-align: center;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 10%;
+
+}
+#buttons {
+	padding: 10px;
+}
+
+/* Second page */
+
+.block {
+	width: 100%;
+}
+
+.table {
+ 	margin-bottom: 30px; 
+}
+
+.matrix {
+	margin-bottom: 30px;
+	width: 100%;
+	float: left;
+}
+
+.matrixSingle {
+	width:auto;
+	float: right;
+	margin-right: 15%;
+}
+
+#title {
+	text-align: center;
+	font-style: italic;
+	font-size: 22px;
+}
+
+.final {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+
+}
+#sum {
+	padding: 5px;
+}
+
+#result {
+	border: 2px solid #e2e2e2;
+	border-radius: 5px;
+	background-color: #FDF5E6;
+	width: 60%;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+a:hover,  a:active{
+	color: #dd33FF;	
+}
